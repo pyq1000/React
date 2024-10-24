@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./assets/N.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 确保背景至少覆盖整个视窗 */
+  color: #333;
+}
+
+  #app {
+    max-width: 600px; /* 窄一点的宽度 */
+    width: 90%;
+    margin: 20pxc auto;
+    background-color: rgba(255, 255, 255, 0.85); /* 更加透明的背景 */
+    padding: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* 增加阴影效果 */
+    border-radius: 20px; /* 更大的圆角 */
+  
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+h1 {
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+}
+
+strong {
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #1da2cb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
